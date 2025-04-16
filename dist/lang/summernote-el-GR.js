@@ -1,4 +1,6 @@
-(function($) {
+"use strict";
+
+(function ($) {
   $.extend(true, $.summernote.lang, {
     'el-GR': {
       font: {
@@ -12,7 +14,7 @@
         subscript: 'Δείκτης',
         superscript: 'Εκθέτης',
         size: 'Μέγεθος',
-        sizeunit: 'Μονάδα μεγέθους',
+        sizeunit: 'Μονάδα μεγέθους'
       },
       image: {
         image: 'Εικόνα',
@@ -35,7 +37,7 @@
         maximumFileSizeError: 'Το μέγεθος είναι μεγαλύτερο από το μέγιστο επιτρεπτό.',
         url: 'URL',
         remove: 'Αφαίρεση',
-        original: 'Αρχικό',
+        original: 'Αρχικό'
       },
       link: {
         link: 'Σύνδεσμος',
@@ -44,14 +46,14 @@
         edit: 'Επεξεργασία συνδέσμου',
         textToDisplay: 'Κείμενο συνδέσμου',
         url: 'Σε ποιo URL πρέπει να πηγαίνει αυτός ο σύνδεσμος;',
-        openInNewWindow: 'Άνοιγμα σε νέο παράθυρο',
+        openInNewWindow: 'Άνοιγμα σε νέο παράθυρο'
       },
       video: {
         video: 'Βίντεο',
         videoLink: 'Σύνδεσμος Βίντεο',
         insert: 'Εισαγωγή',
         url: 'URL',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion ή Youku)',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion ή Youku)'
       },
       table: {
         table: 'Πίνακας',
@@ -61,10 +63,10 @@
         addColRight: 'Προσθήκη στήλης δεξία',
         delRow: 'Διαγραφή γραμμής',
         delCol: 'Διαγραφή στήλης',
-        delTable: 'Διαγραφή πίνακα',
+        delTable: 'Διαγραφή πίνακα'
       },
       hr: {
-        insert: 'Εισαγωγή οριζόντιας γραμμής',
+        insert: 'Εισαγωγή οριζόντιας γραμμής'
       },
       style: {
         style: 'Στυλ',
@@ -76,16 +78,16 @@
         h3: 'Κεφαλίδα 3',
         h4: 'Κεφαλίδα 4',
         h5: 'Κεφαλίδα 5',
-        h6: 'Κεφαλίδα 6',
+        h6: 'Κεφαλίδα 6'
       },
       lists: {
         unordered: 'Αταξινόμητη λίστα',
-        ordered: 'Ταξινομημένη λίστα',
+        ordered: 'Ταξινομημένη λίστα'
       },
       options: {
         help: 'Βοήθεια',
         fullscreen: 'Πλήρης οθόνη',
-        codeview: 'Προβολή HTML',
+        codeview: 'Προβολή HTML'
       },
       paragraph: {
         paragraph: 'Παράγραφος',
@@ -94,7 +96,7 @@
         left: 'Αριστερή στοίχιση',
         center: 'Στοίχιση στο κέντρο',
         right: 'Δεξιά στοίχιση',
-        justify: 'Πλήρης στοίχιση',
+        justify: 'Πλήρης στοίχιση'
       },
       color: {
         recent: 'Πρόσφατη επιλογή',
@@ -105,7 +107,7 @@
         setTransparent: 'Επιλογή διαφάνειας',
         reset: 'Επαναφορά',
         resetToDefault: 'Επαναφορά στις προκαθορισμένες τιμές',
-        cpSelect: 'Επιλογή',
+        cpSelect: 'Επιλογή'
       },
       shortcut: {
         shortcuts: 'Συντομεύσεις',
@@ -114,7 +116,7 @@
         action: 'Ενέργεια',
         paragraphFormatting: 'Διαμόρφωση παραγράφου',
         documentStyle: 'Στυλ κειμένου',
-        extraKeys: 'Επιπλέον συντομεύσεις',
+        extraKeys: 'Επιπλέον συντομεύσεις'
       },
       help: {
         'escape': 'Έξοδος',
@@ -144,19 +146,19 @@
         'formatH5': 'Αλλαγή της μορφής του τρέχοντος μπλοκ σε H5',
         'formatH6': 'Αλλαγή της μορφής του τρέχοντος μπλοκ σε H6',
         'insertHorizontalRule': 'Εισαγωγή οριζόντιας γραμμής',
-        'linkDialog.show': 'Εμφάνιση διαλόγου συνδέσμου',
+        'linkDialog.show': 'Εμφάνιση διαλόγου συνδέσμου'
       },
       history: {
         undo: 'Αναίρεση',
-        redo: 'Επαναληψη',
+        redo: 'Επαναληψη'
       },
       specialChar: {
         specialChar: 'ΕΙΔΙΚΟΙ ΧΑΡΑΚΤΗΡΕΣ',
-        select: 'Επιλέξτε ειδικούς χαρακτήρες',
+        select: 'Επιλέξτε ειδικούς χαρακτήρες'
       },
       output: {
-        noSelection: 'Δεν έγινε επιλογή!',
-      },
-    },
+        noSelection: 'Δεν έγινε επιλογή!'
+      }
+    }
   });
 })(jQuery);

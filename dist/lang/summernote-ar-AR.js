@@ -1,4 +1,6 @@
-(function($) {
+"use strict";
+
+(function ($) {
   $.extend(true, $.summernote.lang, {
     'ar-AR': {
       font: {
@@ -11,7 +13,7 @@
         strikethrough: 'فى وسطه خط',
         subscript: 'مخطوطة',
         superscript: 'حرف فوقي',
-        size: 'الحجم',
+        size: 'الحجم'
       },
       image: {
         image: 'صورة',
@@ -33,14 +35,14 @@
         maximumFileSizeError: 'تم تجاوز الحد الأقصى لحجم الملف',
         url: 'رابط الصورة',
         remove: 'حذف الصورة',
-        original: 'Original',
+        original: 'Original'
       },
       video: {
         video: 'فيديو',
         videoLink: 'رابط الفيديو',
         insert: 'إدراج الفيديو',
         url: 'رابط الفيديو',
-        providers: '(YouTube, Google Drive, Vimeo, Vine, Instagram, DailyMotion or Youku)',
+        providers: '(YouTube, Google Drive, Vimeo, Vine, Instagram, DailyMotion or Youku)'
       },
       link: {
         link: 'رابط',
@@ -49,7 +51,7 @@
         edit: 'تعديل',
         textToDisplay: 'النص',
         url: 'مسار الرابط',
-        openInNewWindow: 'فتح في نافذة جديدة',
+        openInNewWindow: 'فتح في نافذة جديدة'
       },
       table: {
         table: 'جدول',
@@ -59,10 +61,10 @@
         addColRight: 'إضافة عمود بعده',
         delRow: 'حذف سطر',
         delCol: 'حذف عمود',
-        delTable: 'حذف الجدول',
+        delTable: 'حذف الجدول'
       },
       hr: {
-        insert: 'إدراج خط أفقي',
+        insert: 'إدراج خط أفقي'
       },
       style: {
         style: 'تنسيق',
@@ -74,16 +76,16 @@
         h3: 'عنوان رئيسي 3',
         h4: 'عنوان رئيسي 4',
         h5: 'عنوان رئيسي 5',
-        h6: 'عنوان رئيسي 6',
+        h6: 'عنوان رئيسي 6'
       },
       lists: {
         unordered: 'قائمة مُنقطة',
-        ordered: 'قائمة مُرقمة',
+        ordered: 'قائمة مُرقمة'
       },
       options: {
         help: 'مساعدة',
         fullscreen: 'حجم الشاشة بالكامل',
-        codeview: 'شفيرة المصدر',
+        codeview: 'شفيرة المصدر'
       },
       paragraph: {
         paragraph: 'فقرة',
@@ -92,7 +94,7 @@
         left: 'محاذاة لليسار',
         center: 'توسيط',
         right: 'محاذاة لليمين',
-        justify: 'ملئ السطر',
+        justify: 'ملئ السطر'
       },
       color: {
         recent: 'تم إستخدامه',
@@ -103,7 +105,7 @@
         setTransparent: 'بدون خلفية',
         reset: 'إعادة الضبط',
         resetToDefault: 'إعادة الضبط',
-        cpSelect: 'اختار',
+        cpSelect: 'اختار'
       },
       shortcut: {
         shortcuts: 'إختصارات',
@@ -112,7 +114,7 @@
         action: 'Action',
         paragraphFormatting: 'تنسيق الفقرة',
         documentStyle: 'تنسيق المستند',
-        extraKeys: 'أزرار إضافية',
+        extraKeys: 'أزرار إضافية'
       },
       help: {
         'insertParagraph': 'إدراج فقرة',
@@ -141,16 +143,16 @@
         'formatH5': 'تغيير التنسيق للكتلة الحالية إلى ترويسة 5',
         'formatH6': 'تغيير التنسيق للكتلة الحالية إلى ترويسة 6',
         'insertHorizontalRule': 'إدراج خط أفقي',
-        'linkDialog.show': 'إظهار خصائص الرابط',
+        'linkDialog.show': 'إظهار خصائص الرابط'
       },
       history: {
         undo: 'تراجع',
-        redo: 'إعادة',
+        redo: 'إعادة'
       },
       specialChar: {
         specialChar: 'محارف خاصة',
-        select: 'اختر المحرف الخاص',
-      },
-    },
+        select: 'اختر المحرف الخاص'
+      }
+    }
   });
 })(jQuery);

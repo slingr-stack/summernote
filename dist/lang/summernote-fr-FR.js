@@ -1,4 +1,6 @@
-(function($) {
+"use strict";
+
+(function ($) {
   $.extend(true, $.summernote.lang, {
     'fr-FR': {
       font: {
@@ -11,7 +13,7 @@
         strikethrough: 'Barré',
         superscript: 'Exposant',
         subscript: 'Indice',
-        size: 'Taille de police',
+        size: 'Taille de police'
       },
       image: {
         image: 'Image',
@@ -33,14 +35,14 @@
         maximumFileSizeError: 'Taille maximale du fichier dépassée',
         url: 'URL de l\'image',
         remove: 'Supprimer l\'image',
-        original: 'Original',
+        original: 'Original'
       },
       video: {
         video: 'Vidéo',
         videoLink: 'Lien vidéo',
         insert: 'Insérer une vidéo',
         url: 'URL de la vidéo',
-        providers: '(YouTube, Google Drive, Vimeo, Vine, Instagram, DailyMotion or Youku)',
+        providers: '(YouTube, Google Drive, Vimeo, Vine, Instagram, DailyMotion or Youku)'
       },
       link: {
         link: 'Lien',
@@ -49,7 +51,7 @@
         edit: 'Modifier',
         textToDisplay: 'Texte à afficher',
         url: 'URL du lien',
-        openInNewWindow: 'Ouvrir dans une nouvelle fenêtre',
+        openInNewWindow: 'Ouvrir dans une nouvelle fenêtre'
       },
       table: {
         table: 'Tableau',
@@ -59,10 +61,10 @@
         addColRight: 'Ajouter une colonne à droite',
         delRow: 'Supprimer la ligne',
         delCol: 'Supprimer la colonne',
-        delTable: 'Supprimer le tableau',
+        delTable: 'Supprimer le tableau'
       },
       hr: {
-        insert: 'Insérer une ligne horizontale',
+        insert: 'Insérer une ligne horizontale'
       },
       style: {
         style: 'Style',
@@ -74,16 +76,16 @@
         h3: 'Titre 3',
         h4: 'Titre 4',
         h5: 'Titre 5',
-        h6: 'Titre 6',
+        h6: 'Titre 6'
       },
       lists: {
         unordered: 'Liste à puces',
-        ordered: 'Liste numérotée',
+        ordered: 'Liste numérotée'
       },
       options: {
         help: 'Aide',
         fullscreen: 'Plein écran',
-        codeview: 'Afficher le code HTML',
+        codeview: 'Afficher le code HTML'
       },
       paragraph: {
         paragraph: 'Paragraphe',
@@ -92,7 +94,7 @@
         left: 'Aligner à gauche',
         center: 'Centrer',
         right: 'Aligner à droite',
-        justify: 'Justifier',
+        justify: 'Justifier'
       },
       color: {
         recent: 'Dernière couleur sélectionnée',
@@ -102,7 +104,7 @@
         transparent: 'Transparent',
         setTransparent: 'Définir la transparence',
         reset: 'Restaurer',
-        resetToDefault: 'Restaurer la couleur par défaut',
+        resetToDefault: 'Restaurer la couleur par défaut'
       },
       shortcut: {
         shortcuts: 'Raccourcis',
@@ -111,7 +113,7 @@
         action: 'Action',
         paragraphFormatting: 'Mise en forme des paragraphes',
         documentStyle: 'Style du document',
-        extraKeys: 'Touches supplémentaires',
+        extraKeys: 'Touches supplémentaires'
       },
       help: {
         'insertParagraph': 'Insérer paragraphe',
@@ -140,16 +142,16 @@
         'formatH5': 'Changer le paragraphe en cours en entête H5',
         'formatH6': 'Changer le paragraphe en cours en entête H6',
         'insertHorizontalRule': 'Insérer séparation horizontale',
-        'linkDialog.show': 'Afficher fenêtre d\'hyperlien',
+        'linkDialog.show': 'Afficher fenêtre d\'hyperlien'
       },
       history: {
         undo: 'Annuler la dernière action',
-        redo: 'Restaurer la dernière action annulée',
+        redo: 'Restaurer la dernière action annulée'
       },
       specialChar: {
         specialChar: 'Caractères spéciaux',
-        select: 'Choisir des caractères spéciaux',
-      },
-    },
+        select: 'Choisir des caractères spéciaux'
+      }
+    }
   });
 })(jQuery);

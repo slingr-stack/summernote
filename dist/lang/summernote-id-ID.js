@@ -1,4 +1,6 @@
-(function($) {
+"use strict";
+
+(function ($) {
   $.extend(true, $.summernote.lang, {
     'id-ID': {
       font: {
@@ -11,7 +13,7 @@
         strikethrough: 'Coret',
         subscript: 'Subscript',
         superscript: 'Superscript',
-        size: 'Ukuran font',
+        size: 'Ukuran font'
       },
       image: {
         image: 'Gambar',
@@ -33,14 +35,14 @@
         maximumFileSizeError: 'Ukuran maksimal berkas terlampaui.',
         url: 'URL gambar',
         remove: 'Hapus Gambar',
-        original: 'Original',
+        original: 'Original'
       },
       video: {
         video: 'Video',
         videoLink: 'Link video',
         insert: 'Sisipkan video',
         url: 'Tautan video',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion atau Youku)',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion atau Youku)'
       },
       link: {
         link: 'Tautan',
@@ -49,7 +51,7 @@
         edit: 'Edit',
         textToDisplay: 'Tampilan teks',
         url: 'Tautan tujuan',
-        openInNewWindow: 'Buka di jendela baru',
+        openInNewWindow: 'Buka di jendela baru'
       },
       table: {
         table: 'Tabel',
@@ -59,10 +61,10 @@
         addColRight: 'Tambahkan kolom ke kanan',
         delRow: 'Hapus baris',
         delCol: 'Hapus kolom',
-        delTable: 'Hapus tabel',
+        delTable: 'Hapus tabel'
       },
       hr: {
-        insert: 'Masukkan garis horizontal',
+        insert: 'Masukkan garis horizontal'
       },
       style: {
         style: 'Gaya',
@@ -74,16 +76,16 @@
         h3: 'Heading 3',
         h4: 'Heading 4',
         h5: 'Heading 5',
-        h6: 'Heading 6',
+        h6: 'Heading 6'
       },
       lists: {
         unordered: 'Pencacahan',
-        ordered: 'Penomoran',
+        ordered: 'Penomoran'
       },
       options: {
         help: 'Bantuan',
         fullscreen: 'Layar penuh',
-        codeview: 'Kode HTML',
+        codeview: 'Kode HTML'
       },
       paragraph: {
         paragraph: 'Paragraf',
@@ -92,7 +94,7 @@
         left: 'Rata kiri',
         center: 'Rata tengah',
         right: 'Rata kanan',
-        justify: 'Rata kanan kiri',
+        justify: 'Rata kanan kiri'
       },
       color: {
         recent: 'Warna sekarang',
@@ -102,7 +104,7 @@
         transparent: 'Transparan',
         setTransparent: 'Atur transparansi',
         reset: 'Atur ulang',
-        resetToDefault: 'Kembalikan kesemula',
+        resetToDefault: 'Kembalikan kesemula'
       },
       shortcut: {
         shortcuts: 'Jalan pintas',
@@ -111,7 +113,7 @@
         action: 'Aksi',
         paragraphFormatting: 'Format paragraf',
         documentStyle: 'Gaya dokumen',
-        extraKeys: 'Shortcut tambahan',
+        extraKeys: 'Shortcut tambahan'
       },
       help: {
         'insertParagraph': 'Tambahkan paragraf',
@@ -140,16 +142,16 @@
         'formatH5': 'Ubah format gaya tulisan terpilih menjadi Heading 5',
         'formatH6': 'Ubah format gaya tulisan terpilih menjadi Heading 6',
         'insertHorizontalRule': 'Masukkan garis horizontal',
-        'linkDialog.show': 'Tampilkan Link Dialog',
+        'linkDialog.show': 'Tampilkan Link Dialog'
       },
       history: {
         undo: 'Kembali',
-        redo: 'Ulang',
+        redo: 'Ulang'
       },
       specialChar: {
         specialChar: 'KARAKTER KHUSUS',
-        select: 'Pilih karakter khusus',
-      },
-    },
+        select: 'Pilih karakter khusus'
+      }
+    }
   });
 })(jQuery);

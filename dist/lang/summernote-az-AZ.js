@@ -1,4 +1,6 @@
-﻿//Summernote WYSIWYG  editor ucun Azerbaycan dili fayli
+"use strict";
+
+//Summernote WYSIWYG  editor ucun Azerbaycan dili fayli
 //Tercume etdi: RAMIL ALIYEV
 //Tarix: 20.07.2019
 //Baki Azerbaycan
@@ -10,7 +12,7 @@
 //Baku Azerbaijan
 //Website: https://ramilaliyev.com
 
-(function($) {
+(function ($) {
   $.extend(true, $.summernote.lang, {
     'az-AZ': {
       font: {
@@ -23,7 +25,7 @@
         strikethrough: 'Üstü xətli',
         subscript: 'Alt simvol',
         superscript: 'Üst simvol',
-        size: 'Yazı ölçüsü',
+        size: 'Yazı ölçüsü'
       },
       image: {
         image: 'Şəkil',
@@ -45,14 +47,14 @@
         maximumFileSizeError: 'Maksimum sənəd ölçüsünü keçdiniz.',
         url: 'Şəkil linki',
         remove: 'Şəkli sil',
-        original: 'Original',
+        original: 'Original'
       },
       video: {
         video: 'Video',
         videoLink: 'Video linki',
         insert: 'Video əlavə et',
         url: 'Video linki?',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion və ya Youku)',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion və ya Youku)'
       },
       link: {
         link: 'Link',
@@ -61,7 +63,7 @@
         edit: 'Linkə düzəliş et',
         textToDisplay: 'Ekranda göstəriləcək link adı',
         url: 'Link ünvanı?',
-        openInNewWindow: 'Yeni pəncərədə aç',
+        openInNewWindow: 'Yeni pəncərədə aç'
       },
       table: {
         table: 'Cədvəl',
@@ -71,10 +73,10 @@
         addColRight: 'Sağa sütun əlavə et',
         delRow: 'Sətiri sil',
         delCol: 'Sütunu sil',
-        delTable: 'Cədvəli sil',
+        delTable: 'Cədvəli sil'
       },
       hr: {
-        insert: 'Üfuqi xətt əlavə et',
+        insert: 'Üfuqi xətt əlavə et'
       },
       style: {
         style: 'Stil',
@@ -86,16 +88,16 @@
         h3: 'Başlıq 3',
         h4: 'Başlıq 4',
         h5: 'Başlıq 5',
-        h6: 'Başlıq 6',
+        h6: 'Başlıq 6'
       },
       lists: {
         unordered: 'Nizamsız sıra',
-        ordered: 'Nizamlı sıra',
+        ordered: 'Nizamlı sıra'
       },
       options: {
         help: 'Kömək',
         fullscreen: 'Tam ekran',
-        codeview: 'HTML Kodu',
+        codeview: 'HTML Kodu'
       },
       paragraph: {
         paragraph: 'Paraqraf',
@@ -104,7 +106,7 @@
         left: 'Sola çək',
         center: 'Ortaya çək',
         right: 'Sağa çək',
-        justify: 'Sola və sağa çək',
+        justify: 'Sola və sağa çək'
       },
       color: {
         recent: 'Son rənk',
@@ -114,7 +116,7 @@
         transparent: 'Şəffaflıq',
         setTransparent: 'Şəffaflığı nizamla',
         reset: 'Sıfırla',
-        resetToDefault: 'Susyama görə sıfırla',
+        resetToDefault: 'Susyama görə sıfırla'
       },
       shortcut: {
         shortcuts: 'Qısayollar',
@@ -123,7 +125,7 @@
         action: 'Hadisə',
         paragraphFormatting: 'Paraqraf formatlandırmaq',
         documentStyle: 'Sənəd stili',
-        extraKeys: 'Əlavə',
+        extraKeys: 'Əlavə'
       },
       help: {
         'insertParagraph': 'Paraqraf əlavə etmək',
@@ -152,16 +154,16 @@
         'formatH5': 'Aktiv bloqun formatını başlıq 5 (h5) olaraq dəyişdirir',
         'formatH6': 'Aktiv bloqun formatını başlıq 6 (h6) olaraq dəyişdirir',
         'insertHorizontalRule': 'Üfuqi xətt əlavə edir',
-        'linkDialog.show': 'Link parametrləri qutusunu göstərir',
+        'linkDialog.show': 'Link parametrləri qutusunu göstərir'
       },
       history: {
         undo: 'Əvvəlki vəziyyət',
-        redo: 'Sonrakı vəziyyət',
+        redo: 'Sonrakı vəziyyət'
       },
       specialChar: {
         specialChar: 'Xüsusi simvollar',
-        select: 'Xüsusi simvolları seçin',
-      },
-    },
+        select: 'Xüsusi simvolları seçin'
+      }
+    }
   });
 })(jQuery);

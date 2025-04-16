@@ -1,4 +1,6 @@
-(function($) {
+"use strict";
+
+(function ($) {
   $.extend(true, $.summernote.lang, {
     'es-ES': {
       font: {
@@ -12,7 +14,7 @@
         subscript: 'Subíndice',
         superscript: 'Superíndice',
         size: 'Tamaño de la fuente',
-        sizeunit: 'Unidad del tamaño de letra',
+        sizeunit: 'Unidad del tamaño de letra'
       },
       image: {
         image: 'Imagen',
@@ -35,14 +37,14 @@
         maximumFileSizeError: 'Superado el tamaño máximo de fichero.',
         url: 'URL de la imagen',
         remove: 'Eliminar la imagen',
-        original: 'Original',
+        original: 'Original'
       },
       video: {
         video: 'Vídeo',
         videoLink: 'Enlace del vídeo',
         insert: 'Insertar un vídeo',
         url: 'URL del vídeo',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion o Youku)',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion o Youku)'
       },
       link: {
         link: 'Enlace',
@@ -51,7 +53,7 @@
         edit: 'Editar',
         textToDisplay: 'Texto a mostrar',
         url: '¿A qué URL lleva este enlace?',
-        openInNewWindow: 'Abrir en una nueva ventana',
+        openInNewWindow: 'Abrir en una nueva ventana'
       },
       table: {
         table: 'Tabla',
@@ -61,10 +63,10 @@
         addColRight: 'Añadir una columna a la derecha',
         delRow: 'Borrar la fila',
         delCol: 'Borrar la columna',
-        delTable: 'Borrar la tabla',
+        delTable: 'Borrar la tabla'
       },
       hr: {
-        insert: 'Insertar una línea horizontal',
+        insert: 'Insertar una línea horizontal'
       },
       style: {
         style: 'Estilo',
@@ -76,16 +78,16 @@
         h3: 'Título 3',
         h4: 'Título 4',
         h5: 'Título 5',
-        h6: 'Título 6',
+        h6: 'Título 6'
       },
       lists: {
         unordered: 'Lista',
-        ordered: 'Lista numerada',
+        ordered: 'Lista numerada'
       },
       options: {
         help: 'Ayuda',
         fullscreen: 'Pantalla completa',
-        codeview: 'Ver el código fuente',
+        codeview: 'Ver el código fuente'
       },
       paragraph: {
         paragraph: 'Párrafo',
@@ -94,7 +96,7 @@
         left: 'Alinear a la izquierda',
         center: 'Centrar',
         right: 'Alinear a la derecha',
-        justify: 'Justificar',
+        justify: 'Justificar'
       },
       color: {
         recent: 'Último color',
@@ -105,7 +107,7 @@
         setTransparent: 'Establecer transparente',
         reset: 'Restablecer',
         resetToDefault: 'Restablecer a los valores predefinidos',
-        cpSelect: 'Seleccionar',
+        cpSelect: 'Seleccionar'
       },
       shortcut: {
         shortcuts: 'Atajos de teclado',
@@ -114,7 +116,7 @@
         action: 'Acción',
         paragraphFormatting: 'Formato de párrafo',
         documentStyle: 'Estilo de documento',
-        extraKeys: 'Teclas adicionales',
+        extraKeys: 'Teclas adicionales'
       },
       help: {
         insertParagraph: 'Insertar un párrafo',
@@ -143,19 +145,19 @@
         formatH5: 'Cambiar el formato del bloque actual a H5',
         formatH6: 'Cambiar el formato del bloque actual a H6',
         insertHorizontalRule: 'Insertar una línea horizontal',
-        'linkDialog.show': 'Mostrar el panel de enlaces',
+        'linkDialog.show': 'Mostrar el panel de enlaces'
       },
       history: {
         undo: 'Deshacer',
-        redo: 'Rehacer',
+        redo: 'Rehacer'
       },
       specialChar: {
         specialChar: 'CARACTERES ESPECIALES',
-        select: 'Seleccionar caracteres especiales',
+        select: 'Seleccionar caracteres especiales'
       },
       output: {
-        noSelection: '¡No ha seleccionado nada!',
-      },
-    },
+        noSelection: '¡No ha seleccionado nada!'
+      }
+    }
   });
 })(jQuery);
