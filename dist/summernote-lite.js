@@ -20,7 +20,7 @@ https://summernote.org
 Copyright 2013- Hackerwins and contributors
 Summernote may be freely distributed under the MIT license.
 
-Date: 2025-04-16T13:44Z
+Date: 2025-04-23T15:18Z
  */
 (function () {
   "use strict";
