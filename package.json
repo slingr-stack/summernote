@@ -38,7 +38,7 @@
     "@babel/plugin-external-helpers": "^7.8.3",
     "@babel/preset-env": "^7.26.9",
     "@popperjs/core": "^2.9.2",
-    "@vitest/browser": "^1.6.0",
+    "@vitest/browser": "^3.2.7",
     "adm-zip": "^0.5.16",
     "autoprefixer": "^10.2.4",
     "babel-plugin-module-resolver": "^5.0.2",
